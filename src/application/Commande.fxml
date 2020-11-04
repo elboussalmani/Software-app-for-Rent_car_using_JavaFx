@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpaneCommande" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CommandeControle">
+   <children>
+      <JFXTextField fx:id="nomC" layoutX="240.0" layoutY="72.0" />
+      <JFXTextField fx:id="permesC" layoutX="240.0" layoutY="138.0" />
+      <JFXTextField fx:id="datedebC" layoutX="240.0" layoutY="209.0" />
+      <JFXTextField fx:id="voiture" layoutX="240.0" layoutY="274.0" />
+      <JFXButton fx:id="validerC" layoutX="258.0" layoutY="348.0" onAction="#addclients" prefHeight="25.0" prefWidth="87.0" text="valider" />
+   </children>
+</AnchorPane>
